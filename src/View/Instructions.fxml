@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="InstructionsPane" stylesheets="@MainStyle.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="236.0" layoutY="7.0" text="How to play ?!" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Chiller" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="64.0" fitWidth="67.0" layoutX="60.0" layoutY="226.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Goal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="76.0" fitWidth="65.0" layoutX="64.0" layoutY="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/Player.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="151.0" layoutY="230.0" prefHeight="57.0" prefWidth="97.0" text="Dana - The Goal" textFill="WHITE" />
+      <Label layoutX="146.0" layoutY="317.0" prefHeight="42.0" prefWidth="97.0" text="Roy - The Player" textFill="WHITE" />
+      <ImageView fitHeight="76.0" fitWidth="65.0" layoutX="297.0" layoutY="230.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/newWall.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="383.0" layoutY="237.0" prefHeight="42.0" prefWidth="159.0" text="A WALL - Don't mess with it" textAlignment="CENTER" textFill="WHITE" wrapText="true" />
+      <Label layoutX="81.0" layoutY="49.0" prefHeight="178.0" prefWidth="432.0" text="Seriously ?? Common guys , it's not so hard as you think ! Just choose a random number bigger than 2 for both Rows and Columns.  You see Roy's beautiful face ?? He is somewhere there inside the maze. YOUR MISSION : Help him to get to Dana !! She's also there waiting for Roy.You can move with the NumPad or With the arrows (NOT SO DIFFICULT). Then , wait for a SURPRISE !!!! GOOD LUCK :) " textAlignment="CENTER" textFill="WHITE" wrapText="true">
+         <font>
+            <Font name="Berlin Sans FB" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
